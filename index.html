@@ -348,25 +348,21 @@
                     <p> <i class="icon icon-link"></i><a href="http://underwindfall.github.io/index.html">http://underwindfall.github.io</a>
                     </p>
                 </div>
-                
+               
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 comments">
                     <h4>评论</h4>
-                    <div class="ds-thread" data-thread-key="aboutme" data-title="aboutme" data-url="http://qifanyang.com/aboutme/"></div>
-                   
-                    <script type="text/javascript">
-                    var duoshuoQuery = {
-                        short_name: "underwindfall"
-                    };
-                    (function() {
-                        var ds = document.createElement('script');
-                        ds.type = 'text/javascript';
-                        ds.async = true;
-                        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-                        ds.charset = 'UTF-8';
-                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-                    })();
-
-                    </script>
+                    <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                        var disqus_shortname = 'example'; // 注意，这里的 example 要替换为你自己的短域名
+                        /* * * 下面这些不需要改动 * * */
+                        (function() {
+                          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                        })();
+                </script>
+                <noscript>Please enable JavaScript to view the<a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
                 </div>
                 
             </div>
