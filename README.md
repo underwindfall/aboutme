@@ -1,10 +1,8 @@
 # 关于个人简介的页面
-----------
 在线地址: [http://qifanyang.com/aboutme](http://qifanyang.com/aboutme)
 英文版暂时还未上线。
 
 ### 说明
----
 欢迎大家来Clone这个网站来构建自己的简历，本页面灵感来源于[cody1991大神](http://cody1991.github.io/aboutme),感谢。
 ##读书学习生活
 ---
@@ -21,10 +19,11 @@
 -  添加评论功能
 -  修改英文界面
 -  完成对大博客的书写修改
+
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2015~2016 cody1991
+Copyright (c) 2015~2016 underwindfall
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
